@@ -20,14 +20,14 @@ var arrQuestions = [
         answer: 1
     },
     {
-        question: 'What is the correct HTML for adding a background color?',
-        choices: ['<background>yellow</background>', '<body bg="yellow">', '<body style="background-color:yellow;"'],
+        question: 'Which of these JavaScript methods is NOT asynchronous?',
+        choices: ['fetch()', 'setTimeout()', 'alert()', 'addEventListener()'],
         answer: 3
     },
     {
-        question: 'What is the correct HTML for creating a hyperlink?',
-        choices: ['<a href="http://www.w3schools.com">W3Schools</a>', '<a>http://www.w3schools.com</a>', '<a url="http://www.w3schools.com">W3Schools.com</a>', '<a name="http://www.w3schools.com">W3Schools</a>'],
-        answer: 1
+        question: 'Which of these tools would NOT make a request to an API endpoint?',
+        choices: ['The browser', 'The DevTools Network tab', 'The Fetch API', 'The curl command'],
+        answer: 2
     },
     {
         question: 'Which character is used to indicate an end tag?',
