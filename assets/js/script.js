@@ -33,6 +33,16 @@ var arrQuestions = [
         question: 'Which character is used to indicate an end tag?',
         choices: ['<', '^', '/', '*'],
         answer: 3
+    },
+    {
+        question: 'Which of the following URLs includes a query string?',
+        choices: ['https://www.google.com#hello', 'https://www.google.com/hello', 'https://www.google.com/q/hello', 'https://www.google.com?q=hello'],
+        answer: 4
+    },
+    {
+        question: 'Which JavaScript property would allow you to read the current page’s query string?',
+        choices: ['document.location.pathname', 'document.location.search', 'document.location.host', 'document.location.origin'],
+        answer: 2
     }
 ];
 
@@ -123,7 +133,7 @@ function endQuiz() {
 
     // your final score is: 
     var finalScoreEL = document.createElement("p");
-    finalScoreEL.innerHTML = "Your final score is " + getFinalScore();
+    finalScoreEL.innerHTML = "Your final score is " + getFinalScore() + "! You scored " + score + "/" + arrQuestions.length;
 
     // enter your initials
     var initialsLabelEL = document.createElement("label");
