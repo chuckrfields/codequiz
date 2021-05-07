@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  /* --primary: #44e9ff;
+  --secondary: #497980;
+  --tertiary: rgb(192, 246, 253);
+  --grey: #333;
+  font-size: 62.5%; */
+}
+
+body {
+  background: #ffffff;
+  color: var(--grey);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  background: var(--secondary);
+  padding: 30px 25px;
+  border-bottom: 5px solid var(--primary);
+}
+
+header p {
+  color: var(--tertiary);
+  margin: 5px 0 20px;
+  font-size: 2rem;
+}
+
+p,
+li {
+  font-size: 1.6rem;
+}
+
+form {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+form input {
+  outline: none;
+  border: none;
+  padding: 12px;
+  width: 100%;
+  font-size: 2.2rem;
+  border: 2px solid var(--grey);
+  border-radius: 12px;
+}
+
+form .form-group {
+  margin: 10px 6px 10px 0;
+  flex: 1;
+}
+
+h2 {
+  text-align: center;
+}
+
+.timerClass {
+  font-weight: bold;
+  float: right;
+}
+
+button {
+  padding: 10px;
+  margin: 5px 5px;
+  cursor: pointer;
+  font-size: 24px;
+  background-color: #247BA0;
+  color: white;
+  text-align: center;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+.highScoreButton {
+  padding: 10px;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: #247BA0;
+  color: white;
+  text-align: center;
+  width: 30%;
+}
+
+#highscoresDisplay {
+  width: 100%;
+  /* display: flex;
+  flex-wrap: wrap; */
+  align-content: center;
+  text-align: center;
+  /* border: 1px solid #c3c3c3; */
+}
+
+.flex-parent {
+  display: flex;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+.questionsDiv {
+  width: 100%;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+  list-style: inside;
+}
+
+@media screen and (max-width: 980px) {
+  form .form-group {
+    flex: 1 100%;
+  }
+
+  form .form-group button {
+    width: 100%;
+  }
+
+  .task-list-wrapper {
+    flex-basis: 100%;
+  }
+
+}
