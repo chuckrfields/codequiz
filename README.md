@@ -20,6 +20,9 @@ THEN the game is over
 - WHEN the game is over
 THEN I can save my initials and score
 
+## Website
+https://chuckrfields.github.io/codequiz/
+
 ## Contribution
 Made with ❤️ by Chuck Fields
 
