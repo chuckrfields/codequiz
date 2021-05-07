@@ -10,28 +10,28 @@ var timeLeft;
 //build questions
 var arrQuestions = [ 
     {
-        question: 'question 1',
-        choices: ['choice 1', 'Correct choice 2', 'choice 3', 'choice 4'],
+        question: 'What does HTML stand for?',
+        choices: ['Hyperlinks and Text Markup Language', 'Hyper Text Markup Language', 'Home Tool Markup Language'],
         answer: 2
     },
     {
-        question: 'question 2',
-        choices: ['Correct choice 1', 'choice 2', 'choice 3', 'choice 4'],
+        question: 'Who is making the Web standards?',
+        choices: ['The World Wide Web Consortium', 'Google', 'Microsoft', 'Mozilla'],
         answer: 1
     },
     {
-        question: 'question 3',
-        choices: ['choice 1', 'choice 2', 'choice 3', 'Correct choice 4'],
-        answer: 4
+        question: 'What is the correct HTML for adding a background color?',
+        choices: ['<background>yellow</background>', '<body bg="yellow">', '<body style="background-color:yellow;"'],
+        answer: 3
     },
     {
-        question: 'question 4',
-        choices: ['Correct choice 1', 'choice 2', 'choice 3', 'choice 4'],
+        question: 'What is the correct HTML for creating a hyperlink?',
+        choices: ['<a href="http://www.w3schools.com">W3Schools</a>', '<a>http://www.w3schools.com</a>', '<a url="http://www.w3schools.com">W3Schools.com</a>', '<a name="http://www.w3schools.com">W3Schools</a>'],
         answer: 1
     },
     {
-        question: 'question 5',
-        choices: ['choice 1', 'choice 2', 'Correct choice 3', 'choice 4'],
+        question: 'Which character is used to indicate an end tag?',
+        choices: ['<', '^', '/', '*'],
         answer: 3
     }
 ];
