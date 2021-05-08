@@ -43,6 +43,11 @@ var arrQuestions = [
         question: 'Which JavaScript property would allow you to read the current page’s query string?',
         choices: ['document.location.pathname', 'document.location.search', 'document.location.host', 'document.location.origin'],
         answer: 2
+    },
+    {
+        question: 'Which of the following is a valid query string for defining two parameters?',
+        choices: ['?animal=dog&pet=true', 'animal=dog|pet=true', '?animal=dog,pet=true', '?animal=dog+pet=true'],
+        answer: 1
     }
 ];
 

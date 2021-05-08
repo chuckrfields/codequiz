@@ -21,6 +21,11 @@ function displayHighScores() {
         highscoreEL.innerHTML = "No high scores yet";
     }
     else {
+
+        // sort array by high scores descending
+        retrievedHighScores.sort (function(a, b) {
+            return b.highscore - a.highscore;
+        });
         var ul = document.createElement("ul");
         for (var i = 0; i < retrievedHighScores.length; i++) {
             var currentScore = retrievedHighScores[i];
