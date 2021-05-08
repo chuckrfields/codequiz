@@ -48,6 +48,36 @@ var arrQuestions = [
         question: 'Which of the following is a valid query string for defining two parameters?',
         choices: ['?animal=dog&pet=true', 'animal=dog|pet=true', '?animal=dog,pet=true', '?animal=dog+pet=true'],
         answer: 1
+    },
+    {
+        question: 'Which of the following CANNOT be accomplished using Bootstrap utility classes?',
+        choices: ['Drag-and-drop functionality', 'Image replacement', 'Border changing', 'Display an element on screen readers only'],
+        answer: 1
+    },
+    {
+        question: 'True or false? You must use Bootstrap if you want to create a responsive grid layout.',
+        choices: ['True', 'False'],
+        answer: 2
+    },
+    {
+        question: 'What is the maximum number of columns you can create using Bootstrap’s grid layout?',
+        choices: ['6', '12', 'As many as you would like.'],
+        answer: 3
+    },
+    {
+        question: 'Your website can only use fonts that came preinstalled on a user’s device or fonts that they installed themselves.',
+        choices: ['True', 'False'],
+        answer: 2
+    },
+    {
+        question: 'How do you create a flexbox?',
+        choices: ['display: flex;', 'display: flexbox;', 'display: box;'],
+        answer: 1
+    },
+    {
+        question: 'By default, in which direction does a flexbox lay out its items?',
+        choices: ['A column (vertical), with all of the child elements laid out on top of one another.', 'A row (horizontal), with all of the child elements laid out side by side.'],
+        answer: 2
     }
 ];
 
