@@ -207,8 +207,11 @@ function endQuiz() {
 }
 
 function getFinalScore() {
-    if (score > 0) {
-        return timeLeft * score;
+    if (score > 0 && timeLeft > 0) {
+        return Math.round(score / arrQuestions.length) * 100 + timeLeft; // timeLeft * score;
+    }
+    else if (timeLeft === 0) {
+        return Math.round(score / arrQuestions.length) * 100;
     }
     else {
         return 0;
