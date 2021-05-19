@@ -1,9 +1,9 @@
-# codequiz
+# Code Quiz
 This is a timed coding quiz with multiple-choice questions. This app runs in the browser and features
 dynamically updated HTML and CSS powered by JavaScript code.
 
 ## User Story
-AS A coding boot camp student
+AS A coder
 I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
 SO THAT I can gauge my progress compared to my peers
 
