@@ -78,6 +78,36 @@ var arrQuestions = [
         question: 'By default, in which direction does a flexbox lay out its items?',
         choices: ['A column (vertical), with all of the child elements laid out on top of one another.', 'A row (horizontal), with all of the child elements laid out side by side.'],
         answer: 2
+    },
+    {
+        question: 'What’s the best way to add a method to a constructor function?',
+        choices: ['Car.prototype.honk = function( ) { }', 'Car.honk = function( ) { }', 'Car.prototype.honk = ( ) => { }', 'this.honk = function( ) { }'],
+        answer: 1
+    },
+    {
+        question: 'If you want to mock a module located at ./utils/hello.js, where would you create the mock file?',
+        choices: ['./utils/hello.mock.js', './__mocks__/hello.js', './__tests__/__mocks__/hello.js', './utils/__mocks__/hello.js'],
+        answer: 4
+    },
+    {
+        question: 'Let’s say you have a constructor function for an Animal object. How do you create a new instance of an Animal?',
+        choices: ["new function Animal('dog')", "new Animal('dog')", "function Animal('dog')", "Animal('dog')"],
+        answer: 2
+    },
+    {
+        question: 'What are the stages of TDD, in order?',
+        choices: ['Pass, fail, refactor', 'Test, code, pass', 'Fail, pass, refactor', 'Code, test, pass'],
+        answer: 3
+    },
+    {
+        question: 'Why is it hard to truly test randomness, such as with random number generation?',
+        choices: ['Tests may randomly pass or fail.', 'It’s harder to test for a range of numbers than one single number.', 'A test passing once does not guarantee that it will pass every time it runs.'],
+        answer: 3
+    },
+    {
+        question: 'What is the value of the this keyword in a constructor function?',
+        choices: ['The instance of a new object that’s created using the constructor function', 'The global object', 'The function itself'],
+        answer: 1
     }
 ];
 
