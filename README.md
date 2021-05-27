@@ -1,5 +1,5 @@
-# Code Quiz
-This is a timed coding quiz with multiple-choice questions. This app runs in the browser and features
+# Javascript Code Quiz
+This is a timed Javascript coding quiz with multiple-choice questions. This app runs in the browser and features
 dynamically updated HTML and CSS powered by JavaScript code.
 
 ## User Story
