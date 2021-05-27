@@ -1,6 +1,19 @@
-# Javascript Code Quiz
-This is a timed Javascript coding quiz with multiple-choice questions. This app runs in the browser and features
+# Code Quiz
+
+## Description
+This is a timed HTML/JavaScript coding quiz with multiple-choice questions. This app runs in the browser and features
 dynamically updated HTML and CSS powered by JavaScript code.
+
+## Mock-Up
+
+The following image shows the web application's appearance and functionality:
+
+![code quiz demo](./assets/codequiz.png)
+
+## Built With
+* HTML
+* CSS
+* JavaScript
 
 ## User Story
 AS A coder
