@@ -108,6 +108,11 @@ var arrQuestions = [
         question: 'What is the value of the this keyword in a constructor function?',
         choices: ['The instance of a new object that’s created using the constructor function', 'The global object', 'The function itself'],
         answer: 1
+    },
+    {
+        question: 'Which of the following methods is NOT a JavaScript Array method?',
+        choices: ['Array.prototype.splice()', 'Array.prototype.push()', 'Array.prototype.remove()', 'Array.prototype.includes()'],
+        answer: 3
     }
 ];
 
